@@ -34,12 +34,6 @@ const Navbar = () => {
           <ImCross className={clicked ? " displaynot" : " crossy display"} />
         </div>
         <ul className={clicked ? "menu-list1 " : "menu-list "}>{menuList}</ul>
-        {/* <ul className="menu-list">
-          <li>
-            <NavLink to="">Logout</NavLink>
-            <button>Logout</button>
-          </li>
-        </ul> */}
       </nav>
     </div>
   );

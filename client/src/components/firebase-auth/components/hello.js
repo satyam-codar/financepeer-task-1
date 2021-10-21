@@ -7,14 +7,6 @@ export default function Hello() {
   return (
     <div>
       <h1>helllo</h1>
-      {/* <p>{JSON.stringify(currentUser)}</p> */}
-      <br />
-      {currentUser.email === "satyam@test.com" ? (
-        <p>{currentUser && currentUser.email}</p>
-      ) : (
-        <p>Fuck off u mf</p>
-      )}
-      <p>{currentUser && currentUser.email}</p>
     </div>
   );
 }

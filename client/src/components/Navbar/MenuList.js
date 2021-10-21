@@ -4,10 +4,6 @@ export const MenuList = [
     url: "/",
   },
   {
-    title: "Upload JSON",
-    url: "/upload-json",
-  },
-  {
     title: "View All",
     url: "/view-data",
   },

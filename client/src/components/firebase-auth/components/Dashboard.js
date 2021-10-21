@@ -3,6 +3,7 @@ import { Card, Button, Alert } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
+import { NavLink } from "react-router-dom";
 
 import UserTableService from "../../../services/dataService";
 import RetrieveData from "./retrieveUserData";
@@ -30,7 +31,7 @@ export default function Dashboard() {
   };
   const handleSubmit = (e) => {
     // e.preventDefault();
-    setSubmit(1);
+
     var data = file;
     var formData = new FormData();
     formData.append("postFile", data);
@@ -41,6 +42,7 @@ export default function Dashboard() {
       .catch((e) => {
         console.log(e);
       });
+    setSubmit(1);
   };
 
   async function handleLogout() {
@@ -93,8 +95,18 @@ export default function Dashboard() {
             <Card.Body>
               <div className="row">
                 <div className="col mt-2">
-                  <h3>User Data:</h3>
-                  <RetrieveData />
+                  {submit && (
+                    <Alert variant="success">
+                      {" "}
+                      You file uploaded, Now click on View user data.{" "}
+                    </Alert>
+                  )}
+
+                  <NavLink to="/view-data">
+                    <h3>View user data</h3>
+                  </NavLink>
+
+                  {/* <RetrieveData /> */}
                 </div>
               </div>
             </Card.Body>
