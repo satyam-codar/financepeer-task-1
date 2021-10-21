@@ -4,9 +4,9 @@
 
 #### First of all:
 
-1. Create a schema in sql workbench, named as 'satyam_database'
-2. In, satyam_database, create a table named 'user_data'.
-3. add 4 attribute in user_data table as follows:
+1. Create a schema in sql workbench, named as `satyam_database`
+2. In, `satyam_database`, create a table named `user_data`.
+3. add 4 attribute in `user_data` table as follows:
 
 > userId INT,
 > id INT,
@@ -20,12 +20,12 @@ Now clone this project using the link: https://github.com/satyam-codar/financepe
 After cloning the project:
 
 1. Go into the server directory >> Now, run `npm install` without quotes
-2. Go into the client directory >> >> Now, run "npm install" without quotes
+2. Go into the client directory >> >> Now, run `npm install` without quotes
 
 After following the above steps:
 
-1. run "npm start" in 'client' directory
-2. run "npm start" in 'server' directory
+1. run `npm start` in *_client_* directory
+2. run `npm start` in *_server_* directory
 
 Now on the http://localhost:3000/
 
