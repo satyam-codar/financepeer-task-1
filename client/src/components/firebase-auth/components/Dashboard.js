@@ -25,7 +25,7 @@ export default function Dashboard() {
       setError("");
     } else {
       setFile(null);
-      setError("Please select an image file (png or jpg)");
+      setError("Please select a JSON file (.json)");
       console.log("hello there");
     }
   };
