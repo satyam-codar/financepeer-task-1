@@ -10,7 +10,6 @@ import Signup from "./components/firebase-auth/components/Signup";
 import LoginAuth from "./components/firebase-auth/components/Login";
 import ForgotPassword from "./components/firebase-auth/components/ForgotPassword";
 import PrivateRoute from "./components/firebase-auth/components/PrivateRoute";
-import Hello from "./components/firebase-auth/components/hello";
 
 function App() {
   return (
@@ -36,7 +35,6 @@ function App() {
                 <Route path="/signup" component={Signup} />
                 <Route path="/login" component={LoginAuth} />
                 <Route path="/forgot-password" component={ForgotPassword} />
-                <Route exact path="/view-data" component={Hello} />
                 <PrivateRoute exact path="/view-data" component={ViewData} />
               </div>
             </Container>
