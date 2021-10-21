@@ -13,18 +13,18 @@
 > title TEXT,
 > body TEXT
 
-#### After successfully creating the database schema in sql workbench do the following:
+### After successfully creating the database schema in sql workbench do the following:
 
-Now clone this project using the link: https://github.com/satyam-codar/financepeer-task-1.git
+#### Now clone this project using the link: https://github.com/satyam-codar/financepeer-task-1.git
 
-After cloning the project:
+#### After cloning the project:
 
-1. Go into the server directory >> Now, run `npm install` without quotes
-2. Go into the client directory >> >> Now, run `npm install` without quotes
+1. Go into the server directory > Now, run `npm install` without quotes
+2. Go into the client directory > Now, run `npm install` without quotes
 
-After following the above steps:
+#### After following the above steps:
 
-1. run `npm start` in *_client_* directory
+1. run `npm start` in _*client*_ directory
 2. run `npm start` in *_server_* directory
 
 Now on the http://localhost:3000/
