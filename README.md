@@ -19,8 +19,10 @@
 
 #### After cloning the project:
 
-1. Go into the server directory > Now, run `npm install` without quotes
-2. Go into the client directory > Now, run `npm install` without quotes
+1. Go into the server directory 
+> Now, run `npm install` without quotes
+3. Go into the client directory 
+> Now, run `npm install` without quotes
 
 #### After following the above steps:
 
